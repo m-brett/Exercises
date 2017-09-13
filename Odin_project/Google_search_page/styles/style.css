@@ -1,0 +1,168 @@
+body{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+}
+.logo{
+}
+.search_bar{
+  border: 0;
+  box-shadow: 2px 2px 12px #cccccc;
+  width: 43vw;
+  padding: 1%;
+  outline: none;
+  font-size: 14px;
+  position: absolute;
+  top: 3vh;
+}
+nav a:link{
+  text-decoration: none;
+  color: #665d58;
+  margin: 0 0.5%;
+}
+nav a:active, a:visited{
+  color: #665d58;
+}
+nav{
+  background-color: #fafafa;
+  box-shadow: 0px 1px 1px #cccccc;
+  padding-bottom: 1.1%;
+}
+.sign{
+  position: absolute;
+  text-align: right;
+  color: #808080;
+  width: 10vw;
+  right: 2vw;
+  top: 3vw;
+}
+#sign_in{
+  background-color: #4f7dd3;
+  color: white;
+  font-weight: 700;
+  padding: 5% 10%;
+  border-radius: 2px;
+  margin-left: 10%;
+}
+.links{
+  margin: 2vh 0 0 10.5vw;
+  width: 45.5vw;
+}
+.links a{
+  padding: 1% 2% 2.2% 2%;
+}
+.l_right{
+  width: 15vw;
+  float: right;
+  text-align: right;
+}
+.l_right a{
+   padding: 1% 4% 2.2% 4%;
+}
+#active{
+  border-bottom: 4px #4285f4 solid;
+  color: #4285f4;
+  font-weight: bold;
+  padding: 0 2% 2.2% 2%;
+}
+#results{
+  margin: 3.5vh 0 4vh 11.5vw;
+  color: #808080;
+}
+aside{
+  margin-right: 5vw;
+  float: right;
+  width: 35vw;
+}
+.map{
+  width: 100%;
+  margin: 0;
+}
+section{
+  margin: 0 5vw 0 11.5vw;
+  width: 45vw;
+  color: #666666;
+}
+section a{
+  text-decoration: none;
+}
+table, td,tr{
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+  padding: 1%;
+  margin: 4% 0;
+  color: black;
+}
+h2{
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 3% 0% 0.2% 0;
+}
+h3{
+  font-weight: normal;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0.2%;
+  color: black;
+}
+h1{
+  margin: 3% 0 1% 2%;
+  font-size: 1.75rem;
+  font-weight: 500;
+}
+h5{
+  margin: 1% 0 3% 2%;
+  font-size: 0.8rem;
+  font-weight: normal;
+  color: #666666;
+}
+span{
+  color: #006621;
+}
+.navbar{
+  width: 45vw;
+  padding: 3vh 0;
+}
+.navbar img{
+  display: block;
+  margin: auto;
+}
+.extra_search{
+  margin-top: 3%;
+}
+.search_links{
+  margin-top: 3%;
+  width: 20vw;
+  position: relative;
+}
+.search_links a{
+  margin-top: 8%;
+  font-size: 0.9rem;
+  display: block;
+}
+.g_1{
+  display: inline-block;
+  margin-right: 10%;
+}
+.g_2{
+  display: inline-block;
+  position: absolute;
+}
+.g_2 a{
+  margin-top: 11.5%;
+}
+footer{
+  background-color: #f4f4f4;
+  box-shadow: 0px -1px 1px #cccccc;
+  padding: 3vh 0 3vh 11.5vw;
+}
+footer a{
+  text-decoration: none;
+  color: #808080;
+  padding-right: 2vw;
+}
+footer a:link, a:active, a:visited{
+  color: #808080;
+}
