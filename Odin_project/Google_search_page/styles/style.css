@@ -80,25 +80,49 @@ aside{
   width: 100%;
   margin: 0;
 }
-table, td,tr{
-  border: 1px solid #cccccc;
-  border-collapse: collapse;
-}
 section{
   margin: 0 5vw 0 11.5vw;
   width: 45vw;
   color: #666666;
 }
+.text{
+  margin-top: 0.5%;
+}
 section a{
   text-decoration: none;
 }
-table, td,tr{
+table, td, tr{
   border: 1px solid #cccccc;
   border-collapse: collapse;
-  padding: 1%;
-  margin: 4% 0;
   color: black;
+  margin: 4% 0;
 }
+.things table, .things td, .things tr{
+  padding: 1%;
+}
+.things_head{
+  font-size: 115%;
+  margin: 3% 0% 4% 0%;
+}
+.about table, .about td, .about tr{
+  padding: 0;
+}
+.about_text{
+  margin: 2%;
+  line-height: 130%;
+}
+.info{
+  margin: 2% 2% 4% 2%;
+  line-height: 180%;
+}
+.info a{
+  text-decoration: none;
+}
+#sub{
+  color: #666666;
+  font-size: 80%;
+}
+
 h2{
   font-weight: normal;
   font-size: 1.2rem;
@@ -142,7 +166,7 @@ span{
   position: relative;
 }
 .search_links a{
-  margin-top: 8%;
+  margin-bottom: 8%;
   font-size: 0.9rem;
   display: block;
 }
@@ -153,9 +177,10 @@ span{
 .g_2{
   display: inline-block;
   position: absolute;
+  width: 10vw;
 }
 .g_2 a{
-  margin-top: 11.5%;
+  margin-bottom: 8%;
 }
 footer{
   background-color: #f4f4f4;
