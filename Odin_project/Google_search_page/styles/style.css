@@ -80,6 +80,10 @@ aside{
   width: 100%;
   margin: 0;
 }
+table, td,tr{
+  border: 1px solid #cccccc;
+  border-collapse: collapse;
+}
 section{
   margin: 0 5vw 0 11.5vw;
   width: 45vw;
