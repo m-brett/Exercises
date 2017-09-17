@@ -1,0 +1,30 @@
+body{
+  background: linear-gradient(to bottom right, #FAE42F, #FAA42F); 
+  background-attachment: fixed;
+}
+h1{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 70px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 0;
+  margin: 2% 0 0.5% 0;
+}
+.buttons{
+  display: flex;
+  margin: auto;
+  width: 450px;
+  justify-content: space-between;
+}
+button{
+  font-family: 'Open Sans', sans-serif;
+  flex: auto;
+  margin: 2% 1% 0%;
+  padding: 5px 0px;
+}
+.box{
+  margin: auto;
+  border: 1px solid black;
+  width: 450px;
+  height: 450px;
+}
