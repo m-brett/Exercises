@@ -20,7 +20,15 @@ button{
   font-family: 'Open Sans', sans-serif;
   flex: auto;
   margin: 2% 1% 0%;
-  padding: 5px 0px;
+  padding: 8px 0px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #FF1F10;
+  color: white;
+  outline: none;
+}
+button:hover{
+  background-color: #5A2671;
 }
 .box{
   margin: auto;
