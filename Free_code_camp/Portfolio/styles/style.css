@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height: 100vh;
+  border: 1px solid black;
+}
+nav{
+  position: fixed;
+}
+
+/*  PORTFOLIO */
+.portfolio{
+  display: flex;
+  border: 1px solid black;
+}
+.port_details{
+  border: 1px solid black;
+  flex: 50%;
+}
+.port_images{
+  border: 1px solid black;
+  flex: 50%;
+}
+
+/*  ABOUT */
+.about{
+  display: flex;
+  border: 1px solid black;
+}
+.about_details{
+  border: 1px solid black;
+  flex: 50%;
+}
+.about_test{
+  border: 1px solid black;
+  flex: 50%;
+}
