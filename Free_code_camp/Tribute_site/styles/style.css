@@ -12,7 +12,7 @@ a{
 /*CONTAINERS*/
 .home_sec{
 	height: 100vh;
-	background-color: #ff3399;
+	background-color: #f747a0;
 }
 .quote_sec{
 	height: 100vh;
@@ -128,17 +128,26 @@ i{  margin: 0 1%;
 }
 .more_box{
 	height: 35vh;
-	background-color: #ff3399;
+	background-color: #f72790;
 	text-align: center;
 	border-radius: 8px;
-	color: #693e74;
+	color: #efdf51;
+}
+.more_header{
+	display: inline-block;
+	font-size: 2rem;
+	margin: 4%;
+}
+.more_text{
+	margin: 0 4%;
 }
 .more_button{
 	width: 30%;
 	padding: 1.5% 1%;
 	margin: auto;
+	margin-top: 5%;
 	text-align: center;
 	border-radius: 4px;
-	color: #693e74;
+	color: #f747a0;
 	background-color: #efdf51;
 }
