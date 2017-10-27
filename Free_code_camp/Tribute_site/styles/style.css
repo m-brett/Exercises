@@ -87,7 +87,8 @@ a{
 }
 #quote_line{
 	font-size: 2.3rem;
-	padding-top: 9.5%;
+	padding-top: 9.3%;
+	font-family: 'Saira Semi Condensed', sans-serif;
 }
 #quote_name{
 	font-size: 1.3rem;
@@ -115,6 +116,7 @@ i{  margin: 0 1%;
 	margin: 0 0.5%;
 }
 .info_box{
+	position: relative;
 	flex: 20%;
 	padding: 6.5% 2% 0;
 	text-align: center;
@@ -129,6 +131,33 @@ i{  margin: 0 1%;
 }
 .box_3, .box_6{
 	background-color: #D298E1;
+}
+.box_ques {
+  display: block;
+}
+.popup {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #efdf51;
+  overflow: hidden;
+  height: 0;
+  transition: .5s ease;
+}
+
+.info_box:hover .popup {
+  height: 100%;
+}
+
+.box_ans {
+  color: #693e74;
+  font-size: 1.2rem;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
@@ -147,8 +176,9 @@ i{  margin: 0 1%;
 }
 .more_header{
 	display: inline-block;
+	font-family: 'Saira Semi Condensed', sans-serif;
 	font-size: 2rem;
-	margin: 4%;
+	margin: 4% 4% 3%;
 }
 .more_text{
 	margin: 0 4%;

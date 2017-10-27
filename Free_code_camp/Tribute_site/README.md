@@ -2,8 +2,6 @@
 Created October 2017</br>
 Tools: HTML, CSS
 
-Description of Project
-
 Free Code Camp Project - Make a Tribute Page containing an image and text. Page must have a link to an external website containing further information.
 
 ## Additional Developments to Make:
