@@ -2,65 +2,64 @@
 <html>
 
 <head>
+	<title>Thank You For Staying</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<script src="script/script.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display|Roboto" rel="stylesheet">
 </head>	
 
 <body>
 	
 <section class="container">
 	<div class="heading">
-		Thank you for Staying
-		
+		<span class="header">Thank You For Staying</span>
 		Your opinion on our services is of the utmost importance to us, therefore we kindly ask you to take a few moments and fill in our survey. Your feedback will help us improve our services and adapt them according to your suggestions and wishes. Thank you very much for your help
 	</div>
 	
-	<form>
+	<form action="submitted.html" method="post">	
 	<div class="form">
 		<div class="form_box">
-			Information about your stay	
-			Hotel <input type="text" name="hotel" required>
-			Name <input type="text" name="name">
-			Arrival <input type="date" name="arrival"> Departure <input type="date" name="depart">
+			<span class="sec_head">Information about your stay</span>
+			Hotel <input type="text" name="hotel" required><br>
+			Name <input type="text" name="name"><br>
+			Arrival <input type="date" name="arrival"><br>
+			Departure <input type="date" name="depart"><br>
 			Email
-			If you would like to received a reply to any of your comments
-			<input type="text" name="email">
+			<span class="sub">(If you would like to received a reply to any of your comments)</span><br>
+			<input type="text" name="email"><br>
+			<p>Do you have any other comments, which may help us improve our service?</p>
+			<textarea rows="3"></textarea>
+			
 		</div>
 		<div class="form_box">
-			How did you hear about our hotel
+			<span class="sec_head">How did you hear about our hotel</span>
 				<input type="radio" name="hear" value="acquaintance">From an acquaintance<br>
 				<input type="radio" name="hear" value="advertising">From advertising<br>
 				<input type="radio" name="hear" value="agency">From a travel agency<br>
 				<input type="radio" name="hear" value="internet">From the internet<br>
-				Other<input type="text" name="other"><br>
+				<input type="radio" name="hear" value="other">Other <input type="text" name="other"><br>
 
-			Purpose of your visit
+			<span class="sec_head">Purpose of your visit</span>
 				<input type="radio" name="purpose" value="business">Business<br>
 				<input type="radio" name="purpose" value="conference">Conference<br>
-				<input type="radio" name="purpose" value="sights">Sightseeing<br>
-				<input type="radio" name="purpose" value="relax">Relaxation<br>
-				<input type="radio" name="purpose" value="health">Health<br>
+				<input type="radio" name="purpose" value="holiday">Holiday<br>
 			
-			Would you recommend our hotel to friends/family
+			Would you recommend our hotel to friends/family<br>
 				<input type="radio" name="recommend" value="yes">Yes<br>
 				<input type="radio" name="recommend" value="no">No<br>
-
-			Do you have any other comments, which may help us improve our service?
-			<input type="text" name="comments"><br>
-			
 		</div>
 		<div class="form_box">
-			Rate our Services
-			Arrival and Welcome at the Hotel <input type="range" value="1" min="1" max="5">
-			Check in Procedure <input type="range" value="1" min="1" max="5">
-			Friendliness of Reception/Concierge Staff <input type="range" value="1" min="1" max="5">
-			Cleanliness of the room and bathroom <input type="range" value="1" min="1" max="5">
-			Room Service and minibar content <input type="range" value="1" min="1" max="5">
-			Atmosphere/cleanliness of public areas <input type="range" value="1" min="1" max="5">
-			Standard of restaurant service <input type="range" value="1" min="1" max="5">
-			Check-out procedure <input type="range" value="1" min="1" max="5">
+			<span class="sec_head">Rate our Services</span>
+			Check in Procedure<br><input type="range" value="3" min="1" max="5"><br>
+			Friendliness of Reception/Concierge Staff<br><input type="range" value="3" min="1" max="5"><br>
+			Cleanliness of the room and bathroom<br><input type="range" value="3" min="1" max="5"><br>
+			Room Service and minibar content<br><input type="range" value="3" min="1" max="5"><br>
+			Atmosphere/cleanliness of public areas<br><input type="range" value="3" min="1" max="5"><br>
+			Standard of restaurant service<br><input type="range" value="3" min="1" max="5"><br>
+			Check-out procedure<br><input type="range" value="3" min="1" max="5"><br>
 		</div>
 	</div>
+	<input type="submit" value="Submit">
 	</form>
 	
 </section>

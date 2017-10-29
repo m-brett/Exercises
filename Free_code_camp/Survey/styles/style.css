@@ -4,27 +4,80 @@ body{
 	font-size: 14px;
 	background-image: url("../images/background2.jpg");
 	background-size: cover;
+	font-family: 'Roboto', sans-serif;
 }
 
-.container{
+.container, .sub_container{
 	margin: auto;
-	margin-top: 8%;
+	margin-top: 4%;
 	padding: 2%;
 	width: 65%;
-	height: 60vh;
-	box-shadow: 0px 5px 5px #888888; /*CHANGE COLOUR*/
-	background-color: #f9f9db;  /*CHANGE COLOUR*/
+	height: 72vh;
+	box-shadow: 0px 5px 5px #888888;
+	background-color: #f9f9db; 
+}
+
+.sub_container{
+	margin-top: 10%;
+	padding-top: 5%;
+	height: 28vh;
+	width: 50%;
+	text-align: center;
 }
 
 .header{
-	
+	display: block;
+	font-family: 'Playfair Display', serif;
+	font-size: 2rem;
+	text-align: center;
+	line-height: 2rem;
+	color: #084704;
+	padding-bottom: 2%;
 }
-
 
 .form{
 	display: flex;
+	margin-top: 1%;
+	flex-wrap: wrap;
 }
 .form_box{
-	flex: 30%;
-	border: 1px solid green;
+	flex: 1;
+}
+.sec_head{
+	display: block;
+	margin: 4% 0% 3%;
+	font-weight: 700;
+}
+.sub{
+	font-size: 0.7rem;
+}
+input[type=text], input[type=date]{
+	margin: 1% 0;
+}
+input[type=text]{
+	width: 80%;
+}
+textarea{
+	resize: none;
+	width: 80%;
+}
+input[type=submit], a{
+	display: block;
+	margin: auto;
+	padding: 0.8% 3%;
+	border-radius: 8px;
+	border: none;
+	background-color: #084704;
+	color: #f9f9db;
+	transition: all .2s ease-in-out;
+}
+input[type=submit]:hover, a:hover {
+	background-color: #12720c;
+	transform: scale(1.1);
+}
+a{
+	text-decoration: none;
+	width: 20%;
+	padding: 0.8% 2%;
+	margin-top: 6%;
 }
