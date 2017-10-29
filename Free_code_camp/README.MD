@@ -3,7 +3,7 @@
 Solutions created for exercises in Free Code Camp Beta
 
 Responsive Web Design
-- [ ] Build a Tribute Page
+- [x] Build a Tribute Page
 - [ ] Build a Survey Form
 - [ ] Build a Product Landing Page
 - [ ] Build a Technical Documentation Page
