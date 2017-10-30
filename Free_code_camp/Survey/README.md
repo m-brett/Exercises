@@ -1,8 +1,8 @@
 # About
-Created -</br>
-Tools: HTML, CSS, JavaScript
+Created October 2017</br>
+Tools: HTML, CSS
 
-Description of Project
+Free Code Camp Project - Make a Survey Page
 
 
 ## Additional Developments to Make:
