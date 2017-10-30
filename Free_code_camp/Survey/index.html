@@ -19,17 +19,16 @@
 	<form action="submitted.html" method="post">	
 	<div class="form">
 		<div class="form_box">
-			<span class="sec_head">Information about your stay</span>
-			Hotel <input type="text" name="hotel" required><br>
-			Name <input type="text" name="name"><br>
-			Arrival <input type="date" name="arrival"><br>
-			Departure <input type="date" name="depart"><br>
-			Email
-			<span class="sub">(If you would like to received a reply to any of your comments)</span><br>
-			<input type="text" name="email"><br>
-			<p>Do you have any other comments, which may help us improve our service?</p>
-			<textarea rows="3"></textarea>
-			
+			<span class="sec_head">Information about your stay</span>	
+				<label>Hotel </label><input type="text" name="hotel" required><br>
+				<label>Name </label><input type="text" name="name"><br>
+				<label>Arrival </label><input type="date" name="arrival"><br>
+				<label>Departure </label><input type="date" name="depart"><br>
+				<label>Email</label><br>
+				<span class="sub">(If you would like to received a reply to any of your comments)</span><br>
+				<input type="text" name="email" id="email"><br>
+				<p>Do you have any other comments, which may help us improve our service?</p>
+				<textarea rows="3"></textarea>
 		</div>
 		<div class="form_box">
 			<span class="sec_head">How did you hear about our hotel</span>
@@ -44,19 +43,33 @@
 				<input type="radio" name="purpose" value="conference">Conference<br>
 				<input type="radio" name="purpose" value="holiday">Holiday<br>
 			
-			Would you recommend our hotel to friends/family<br>
+			<p>Would you recommend our hotel to friends/family</p>
 				<input type="radio" name="recommend" value="yes">Yes<br>
 				<input type="radio" name="recommend" value="no">No<br>
 		</div>
 		<div class="form_box">
 			<span class="sec_head">Rate our Services</span>
-			Check in Procedure<br><input type="range" value="3" min="1" max="5"><br>
-			Friendliness of Reception/Concierge Staff<br><input type="range" value="3" min="1" max="5"><br>
-			Cleanliness of the room and bathroom<br><input type="range" value="3" min="1" max="5"><br>
-			Room Service and minibar content<br><input type="range" value="3" min="1" max="5"><br>
-			Atmosphere/cleanliness of public areas<br><input type="range" value="3" min="1" max="5"><br>
-			Standard of restaurant service<br><input type="range" value="3" min="1" max="5"><br>
-			Check-out procedure<br><input type="range" value="3" min="1" max="5"><br>
+			Check in Procedure<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Friendliness of Reception Staff<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Cleanliness of the room and bathroom<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Room Service and minibar content<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Atmosphere/cleanliness of public areas<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Standard of restaurant service<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
+			Check-out procedure<br>
+				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
+				<span class="rate_text"> 5</span><br>
 		</div>
 	</div>
 	<input type="submit" value="Submit">
