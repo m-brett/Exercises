@@ -18,7 +18,7 @@
 	
 	<form action="submitted.html" method="post">	
 	<div class="form">
-		<div class="form_box">
+		<div class="form_box information">
 			<span class="sec_head">Information about your stay</span>	
 				<label>Hotel </label><input type="text" name="hotel" required><br>
 				<label>Name </label><input type="text" name="name"><br>
@@ -27,27 +27,48 @@
 				<label>Email</label><br>
 				<span class="sub">(If you would like to received a reply to any of your comments)</span><br>
 				<input type="text" name="email" id="email"><br>
-				<p>Do you have any other comments, which may help us improve our service?</p>
+				<p>Do you have any other comments, which <br>may help us improve our service?</p>
 				<textarea rows="3"></textarea>
 		</div>
+	 
 		<div class="form_box">
 			<span class="sec_head">How did you hear about our hotel</span>
-				<input type="radio" name="hear" value="acquaintance">From an acquaintance<br>
-				<input type="radio" name="hear" value="advertising">From advertising<br>
-				<input type="radio" name="hear" value="agency">From a travel agency<br>
-				<input type="radio" name="hear" value="internet">From the internet<br>
-				<input type="radio" name="hear" value="other">Other <input type="text" name="other"><br>
+				<label class="radio_style">
+					<input type="radio" name="hear" value="acquaintance">From an acquaintance<br>
+				<span class="checkmark"></span></label>
+				<label class="radio_style">
+					<input type="radio" name="hear" value="advertising">From advertising<br>
+				<span class="checkmark"></span></label>	
+				<label class="radio_style">
+					<input type="radio" name="hear" value="agency">From a travel agency<br>
+				<span class="checkmark"></span></label>	
+				<label class="radio_style">
+					<input type="radio" name="hear" value="internet">From the internet<br>
+				<span class="checkmark"></span></label>	
+				<label class="radio_style">
+					<input type="radio" name="hear" value="other">Other <input type="text" name="other"><br>
+				<span class="checkmark"></span></label>
 
 			<span class="sec_head">Purpose of your visit</span>
-				<input type="radio" name="purpose" value="business">Business<br>
-				<input type="radio" name="purpose" value="conference">Conference<br>
-				<input type="radio" name="purpose" value="holiday">Holiday<br>
+				<label class="radio_style">
+					<input type="radio" name="purpose" value="business">Business<br>
+				<span class="checkmark"></span></label>	
+				<label class="radio_style">
+					<input type="radio" name="purpose" value="conference">Conference<br>
+				<span class="checkmark"></span></label>	
+				<label class="radio_style">
+					<input type="radio" name="purpose" value="holiday">Holiday<br>
+				<span class="checkmark"></span></label>	
 			
-			<p>Would you recommend our hotel to friends/family</p>
-				<input type="radio" name="recommend" value="yes">Yes<br>
-				<input type="radio" name="recommend" value="no">No<br>
+			<p><b>Would you recommend our hotel to friends/family</b></p>
+				<label class="radio_style">
+					<input type="radio" name="recommend" value="yes">Yes<br>
+				<span class="checkmark"></span></label>
+				<label class="radio_style">
+					<input type="radio" name="recommend" value="no">No<br>
+				<span class="checkmark"></span></label>
 		</div>
-		<div class="form_box">
+		<div class="form_box ratings">
 			<span class="sec_head">Rate our Services</span>
 			Check in Procedure<br>
 				<span class="rate_text">1 </span><input type="range" value="3" min="1" max="5" class="slider">
