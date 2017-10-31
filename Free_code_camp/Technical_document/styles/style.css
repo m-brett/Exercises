@@ -1,17 +1,35 @@
-.body{
+body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
 }
 h1{
 	text-align: center;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 2.5rem;
+	margin-bottom: 1%;
 }
 h2{
 	text-align: center;
+	margin: 0 0 1%;
+	padding: 2% 0;
+	background-color: bisque;
+	border-radius: 10px 0 0 0;
+	font-family: 'Archivo Narrow', sans-serif;
+	font-size: 1.5rem;
+}
+.side_text{
+	background-color: yellow;
+	border-radius: 10px 0 0 0;
+	padding-bottom: 2%;
+}
+.side_bar p{
+	margin: 5% 4%;
 }
 
 .container{
-	border: 1px solid green;
 	width: 90%;
 	margin: auto;
 	display: flex;
@@ -19,26 +37,47 @@ h2{
 }
 /*SIDE BAR*/
 .side_bar{
-	border: 1px solid blue;
-	flex: 25%;
+	flex: 22%;
+}
+i{
+	float: right;
+	padding-right: 2%;
 }
 .sections{
-	border: 1px solid gold;
+	background-color: purple;
 	cursor: pointer;
+	padding: 2% 4%;
+	margin-top: 1%;
+}
+#first_sec{
+	margin-top: 0;
 }
 #sub_1, #sub_2, #sub_3{
 	display: none;
+	background-color: green;
+	margin-bottom: 1%;
 }
 .sub_group a{
 	display: block;
+	padding: 2% 2%;
+	text-decoration: none;
+}
+.sub_group a:hover{
+	background-color: darkgreen;
 }
 
 /*MAIN CONTENT*/
 .content{
-	border: 1px solid yellow;
-	flex: 75%;
+	background-color: orange;
+	border-radius: 0 10px 10px 10px;
+	flex: 78%;
 	position: relative;
+	padding: 1.5%;
 }
 .return_button{
-
+	display: inline-block;
+	text-decoration: none;
+	background-color: aqua;
+	padding: 1% 2%;
+	border-radius: 5px;
 }
