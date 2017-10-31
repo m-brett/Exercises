@@ -24,6 +24,10 @@ h2{
 }
 .sections{
 	border: 1px solid gold;
+	cursor: pointer;
+}
+#sub_1, #sub_2, #sub_3{
+	display: none;
 }
 .sub_group a{
 	display: block;
@@ -33,5 +37,8 @@ h2{
 .content{
 	border: 1px solid yellow;
 	flex: 75%;
+	position: relative;
+}
+.return_button{
 
 }
