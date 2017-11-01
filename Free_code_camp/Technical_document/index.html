@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Technical Document</title>
 	<link rel="stylesheet" type="text/css" href="styles/style.css">
 	<script src="https://use.fontawesome.com/f37781fe0a.js"></script>
 	<script src="scripts/script.js"></script>
@@ -9,51 +10,103 @@
 	
 <body>
 	
-<header id="top">
-	<h1>TITLE</h1>
+<header>
+	<h1 id="top">RUBY USER'S GUIDE</h1>
 </header>
 	
 <section>
 	<div class="container">
+		<div class="side_con">
 		<div class="side_bar">
 			<div class="side_text"><h2>Contents</h2>
-			<p>Select drop down sub categories</p></div>
+			<p>Select drop down for subcategories</p></div>
 				<div id="first_sec" class="sections" onclick="drop_down(1);">
-					Section 1 <i class="fa fa-caret-down"></i></div>
+					Introduction <i class="fa fa-caret-down"></i></div>
 					<div class="sub_group" id="sub_1">
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
+						<a href="#what_rub">What is Ruby</a>
+						<a href="#get_start">Getting Started</a>
 					</div>
 				<div class="sections" onclick="drop_down(2);">
-					Section 2 <i class="fa fa-caret-down"></i></div>
+					Beginner's Ruby <i class="fa fa-caret-down"></i></div>
 					<div class="sub_group"  id="sub_2" >
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
+						<a href="#">Strings</a>
+						<a href="#">Regular Expressions</a>
+						<a href="#">Arrays</a>
+						<a href="#">Simple Examples</a>
+						<a href="#">Control Structures</a>
 					</div>
 				<div class="sections" onclick="drop_down(3);" >
-					Section 3 <i class="fa fa-caret-down"></i></div>
+					Object Orientated <i class="fa fa-caret-down"></i></div>
 					<div class="sub_group"  id="sub_3" >
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
-						<a href="#">Sub Category</a>
+						<a href="#">Iterators</a>
+						<a href="#">Object-Oriented Thinking</a>
 					</div>
+				<div class="sections" onclick="drop_down(4);" >
+					Methods and Classes <i class="fa fa-caret-down"></i></div>
+					<div class="sub_group"  id="sub_4" >
+						<a href="#">Methods</a>
+						<a href="#">Classes</a>
+						<a href="#">Inheritance</a>
+					</div>
+				<div class="sections" onclick="drop_down(4);" >
+					About the Guide</div>
 			</div>
-		
-		
+		</div>
+
 		
 		
 		<div class="content">
-			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ut tristique eros, sit amet sagittis est. Mauris accumsan felis justo, eu tempus lacus suscipit a. Vestibulum eu dapibus risus. In consequat neque quis tortor aliquam, quis lobortis dolor aliquam. Morbi volutpat ligula eu sodales rutrum. Proin varius in enim eu tincidunt. Nulla facilisi. Vestibulum vestibulum dolor placerat, euismod leo ac, mattis purus. Nunc accumsan euismod sollicitudin. Duis pulvinar molestie orci, dictum mattis erat commodo eu. Nam ullamcorper nibh vitae enim bibendum, id efficitur metus iaculis. Aenean congue quam vel ligula feugiat efficitur. Etiam tincidunt viverra ex, eget vestibulum neque interdum id. Vivamus semper venenatis dui, nec congue purus.
-
-			Nunc sit amet fermentum lectus. Ut ac faucibus lectus. Aenean pellentesque lacinia auctor. In hac habitasse platea dictumst. Nulla volutpat urna nibh, in rhoncus velit ultricies id. Nullam nunc lorem, convallis fermentum felis eu, bibendum mattis ipsum. Nunc varius euismod metus, sit amet consequat sapien tincidunt et. Donec viverra nulla non nulla lacinia eleifend. Sed dapibus orci a justo molestie, at suscipit magna hendrerit. Morbi eget pretium risus, sed tincidunt nisl. Aenean eu eros nunc. Aenean in vulputate augue. Sed sit amet feugiat ligula.
+			<h2>INTRODUCTION</h2>
+			<h3 id="what_rub">What is ruby?</h3>
+			<p>Ruby is "an interpreted scripting language for quick and easy object-oriented programming" -- what does this mean?</p>
+			<strong>Interpreted scripting language:</strong>
+			<ul>
+				<li>ability to make operating system calls directly</li>
+				<li>powerful string operations and regular expressions</li>
+				<li>immediate feedback during development</li>
+			</ul>
+			<strong>Object oriented programming:</strong>
+			<ul>
+				<li>everything is an object</li>
+				<li>classes, methods, inheritance, etc. </li>
+				<li>singleton methods</li>
+				<li>"mixin" functionality by module</li>
+				<li>iterators and closures</li>
+			</ul>
+			<strong>Also:</strong>
+			<ul>
+				<li>multiple precision integers</li>
+				<li>convenient exception processing</li>
+				<li>dynamic loading</li>
+				<li>threading support</li>
+			</ul>
+			If you are unfamiliar with some of the concepts above, read on, and don't worry. The mantra of the ruby language is <em>quick and easy.</em>
 			
-			<div class="return_button"><a href="#top">Return to top</a></div>
+			<h3 id="get_start">Getting started</h3>
+			<p>First, you'll want to check whether ruby is installed. From the shell prompt (denoted here by "%", so don't type the %), type
+				<code>% ruby -v</code>
+			(-v tells the interpreter to print the version of ruby), then press the Enter key. If ruby is installed, you will see a message something like the following:
+			<code>% ruby -v<br>
+			ruby 2.1.0p0 (2013-12-25 revision 44422) [x86_64-linux]</code>
+			If ruby is not installed, you can ask your administrator to install it, or you can do it yourself, since ruby is free software with no restrictions on its installation or use.
+			Now, let's play with ruby. You can place a ruby program directly on the command line using the -e option:
+			<code>% ruby -e 'puts "hello world"'<br>
+			hello world</code>
+			More conventionally, a ruby program can be stored in a file.
+			<code>% echo "puts 'hello world'" > hello.rb<br>
+			% ruby hello.rb<br>
+			hello world</code>
+			When writing more substantial code than this, you will want to use a real text editor!
+			Some surprisingly complex and useful things can be done with miniature programs that fit in a command line. For example, this one replaces foowith bar in all C source and header files in the current working directory, backing up the original files with ".bak" appended:
+			<code>% ruby -i.bak -pe 'sub "foo", "bar"' *.[ch]</code>
+			This program works like the UNIX cat command (but works slower than cat):
+				<code>% ruby -pe 0 file</code></p>
 
+
+
+
+
+			<div class="return_button"><a href="#top">Return to top</a></div>
 		</div>
 	</div>	
 </section>
