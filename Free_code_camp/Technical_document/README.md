@@ -1,12 +1,7 @@
 # About
-Created -</br>
+Created October 2017</br>
 Tools: HTML, CSS, JavaScript
 
-Description of Project
-
-
-## Additional Developments to Make:
-
-- [ ] 
+Free Code Camp Project - Create a Technical Document
 
 
