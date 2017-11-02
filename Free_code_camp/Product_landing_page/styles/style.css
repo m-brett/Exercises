@@ -1,0 +1,93 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+.main_sect{
+	border: 1px solid green;
+	height: 100vh;
+	/* BACKGROUND IMAGE*/
+}
+nav{
+	border: 1px solid purple;
+	display: inline-block;
+	float: right;
+	padding: 2%;
+}
+h1{
+	margin-top: 40vh;
+	text-align: center;
+	font-size: 3rem;
+}
+.up_button{
+	position: fixed;
+	border: 1px solid gold;
+	right: 2%;
+	bottom: 2%;
+	padding: 1% 2%;
+}
+/*FEATURES*/
+.features_sect{
+	border: 1px solid red;
+	display: flex;
+	background-color: darkgray;
+}
+.features_image{
+	flex: 50%;
+	background-color: green;
+}
+.features_name{
+	flex: 50%;
+}
+.feature_cont{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: yellowgreen;
+	margin: 2%;
+}
+.feature_det{
+	border: 1px solid black;
+	padding: 1% 2%;
+	flex: 40%;
+}
+.more_button{
+	display: inline-block;
+	border: 2px solid white;
+	padding: 1% 2%;
+	border-radius: 5px;
+	color: white;
+}
+/*PRICES*/
+.prices_sect{
+	border: 1px solid yellow;
+	display: flex;
+}
+.prices{
+	flex: 50%;
+	background-color: red;
+}
+.price_det{
+	border: 1px solid grey;
+	padding: 2%;
+	margin: auto;
+	margin-bottom: 2%;
+	width: 70%;
+}
+.prices_image{
+	flex: 50%;
+	background-color: darkred;
+}
+
+/*SIGN_UP*/
+.signup_sect{
+	border: 1px solid purple;
+	height: 40vh;
+	text-align: center;
+}
+footer{
+	height: 20vh;
+	background-color: darkblue;
+}
+
