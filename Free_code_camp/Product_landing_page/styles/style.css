@@ -62,10 +62,10 @@ h1{
 	padding: 0.5% 1.5% 1%;
 }
 /*FEATURES*/
+/*ALIGN ALL FEATURES DETAILS TO LEFT*/
 .features_sect{
-	border: 1px solid red;
 	display: flex;
-	padding: 5% 3% 5% 3%;
+	padding: 3% 3% 5% 3%;
 }
 h2{
 	/*text-align:center;*/
@@ -109,9 +109,6 @@ h2{
 	margin-top: 6%;
 	margin-bottom: 8%;
 }
-.more_cont{
-	/*text-align: left;*/
-}
 .more_button{
 	display: inline-block;
 	border: 2px solid black;
@@ -120,6 +117,11 @@ h2{
 	border-radius: 5px;
 	font-weight: bold;
 }
+.more_button:hover{
+	color: #f0522a;
+	border: 2px solid #f0522a;
+}
+
 /*PRICES*/
 .prices_sect{
 	border: 1px solid yellow;
@@ -142,12 +144,32 @@ h2{
 
 /*SIGN_UP*/
 .signup_sect{
-	border: 1px solid purple;
-	height: 40vh;
 	text-align: center;
+}
+.signup_sect h2{
+	text-align:center;
+	padding-left: 0%;
+	margin: 5% 0 2%;
+}
+input[type=text]{
+	margin: 2% 1% 5% 1%;
+	padding: 0.5% 1%;
+}
+input[type=submit]{
+	display: inline-block;
+	border: 2px solid black;
+	background-color: white;
+	padding: 0.5% 1%;
+	border-radius: 5px;
+	font-weight: bold;
+}
+input[type=submit]:hover{
+	color: #f0522a;
+	border: 2px solid #f0522a;
+	
 }
 footer{
 	height: 20vh;
-	background-color: darkblue;
+	background-color: #D3D3D3;
 }
 
