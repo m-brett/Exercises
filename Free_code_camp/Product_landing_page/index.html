@@ -9,9 +9,9 @@
 </head>
 
 <body>
-	<div class="up_button"><i class="fa fa-chevron-up"></i></div>
-	<section class="main_sect">
-		<div class="logo">Camera Company</div>
+	<a href="#top"><div class="up_button"><i class="fa fa-chevron-up fa-2x"></i></div></a>
+	<section class="main_sect" id="top">
+		<div class="logo">COMPANY LOGO</div>
 		<nav>
 			<a href="#">Features</a>
 			<a href="#">Prices</a>
@@ -21,22 +21,37 @@
 	</section>
 	
 	<section class="features_sect">
-			<div class="features_image"></div>
+			<div class="features_image">
+				<img id="camera_1" src="images/camera_1.jpg" alt="camera">
+			</div>
 			<div class="features_name">
-				FEATURES
+				<h2>Features</h2>
 				<div class="feature_cont">
-					<div class="feature_det">Thing 1</div>
-					<div class="feature_det">Thing 2</div>
-					<div class="feature_det">Thing 3</div>
-					<div class="feature_det">Thing 4</div>
+					<div class="feature_det">
+						<img src="images/plus.png" class="symbol">
+						60x Optical Zoom</div>
+					<div class="feature_det">
+						<img src="images/battery.png" class="symbol">
+						Extended Battery Life</div>
+					<div class="feature_det">
+						<img src="images/water.png" class="symbol">
+						Water Resistance</div>
+					<div class="feature_det">
+						<img src="images/truck.png" class="symbol">
+						Delivery Within Three Days</div>
 				</div>
-				<div class="more_button">FIND OUT MORE</div>
+				<div class="more_cont">
+					<a href="#">
+						<div class="more_button">FIND OUT MORE</div>
+					</a>
+				</div>
+				
 			</div>
 	</section>
 	
 	<section class="prices_sect">
 			<div class="prices">
-				Prices
+				<h2>Prices</h2>
 				<div class="price_det">Price 1</div>
 				<div class="price_det">Price 2</div>
 				<div class="price_det">Price 3</div>
@@ -45,8 +60,12 @@
 	</section>
 	
 	<section class="signup_sect">
-		Signup for Updates
-		<input type="text">
+		<h2>Signup</h2>
+		Get the latest updates as soon as they are released<br>
+		<form>
+			<input type="text" value="Enter your email">
+			<input type="submit">
+		</form>
 	</section>
 	
 	<footer></footer>

@@ -5,10 +5,15 @@ body{
 	font-size: 14px;
 	font-family: 'Open Sans', sans-serif;
 }
+a{
+	text-decoration: none;
+	color: black;
+}
 
 .main_sect{
 	height: 100vh;
 	background: url(../images/back_1.jpeg);
+	/*SLIDESHOW IMAGES?*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -17,6 +22,7 @@ body{
 	padding: 2% 2% 1% 4%;
 	font-weight: bold;
 	font-size: 1.5rem;
+	color: white;
 }
 nav{
 	display: inline-block;
@@ -30,58 +36,89 @@ nav{
 nav a{
 	text-decoration: none;
 	padding: 1% 2%;
-	margin: 0 1%;
+	margin: 0 2%;
 	color: white;
 }
 nav a:hover{
 	border-bottom: 3px solid white;
 }
 h1{
-	margin-top: 28vh;
+	margin-top: 30vh;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 4.5rem;
 	color: white;
 	text-shadow: 1px 1px 2px #3d3b3b;
 	font-weight: bold;
-	line-height: 4.5rem;
+	line-height: 5rem;
 }
+/*ONLY APPEARS AFTER MAIN SECTION*/
 .up_button{
 	position: fixed;
-	border: 1px solid gold;
+	border-radius: 10px;
+	background-color: #878484;
+	color: white;
 	right: 2%;
 	bottom: 2%;
-	padding: 1% 2%;
+	padding: 0.5% 1.5% 1%;
 }
 /*FEATURES*/
 .features_sect{
 	border: 1px solid red;
 	display: flex;
-	background-color: darkgray;
+	padding: 5% 3% 5% 3%;
+}
+h2{
+	/*text-align:center;*/
+	padding-left: 10%;
+	font-size: 2rem;
+	line-height: 2rem;
+	font-weight: bold;
+	margin-bottom: 3%;
+	/*CHANGE FONT*/
 }
 .features_image{
 	flex: 50%;
-	background-color: green;
+	text-align: right;
+	padding-top: 3%;
+}
+#camera_1{
+	width: 75%;
+	display: inline-block;
 }
 .features_name{
 	flex: 50%;
+	padding-left: 10%;
 }
 .feature_cont{
 	display: flex;
 	flex-wrap: wrap;
-	background-color: yellowgreen;
-	margin: 2%;
+	text-align: center;
+	color: #f0522a;
+	font-weight: bold;
+	font-size: 1.2rem;
+	padding: 0% 8%;
 }
 .feature_det{
-	border: 1px solid black;
-	padding: 1% 2%;
+	padding: 1% 1% 1% 4%;
 	flex: 40%;
+}
+.symbol{
+	width: 40%;
+	display: block;
+	margin: auto;
+	margin-top: 6%;
+	margin-bottom: 8%;
+}
+.more_cont{
+	/*text-align: left;*/
 }
 .more_button{
 	display: inline-block;
-	border: 2px solid white;
+	border: 2px solid black;
 	padding: 1% 2%;
+	margin: 6% 4% 4% 15%;
 	border-radius: 5px;
-	color: white;
+	font-weight: bold;
 }
 /*PRICES*/
 .prices_sect{
@@ -90,7 +127,6 @@ h1{
 }
 .prices{
 	flex: 50%;
-	background-color: red;
 }
 .price_det{
 	border: 1px solid grey;
@@ -101,7 +137,7 @@ h1{
 }
 .prices_image{
 	flex: 50%;
-	background-color: darkred;
+	border: 1px solid green;
 }
 
 /*SIGN_UP*/
