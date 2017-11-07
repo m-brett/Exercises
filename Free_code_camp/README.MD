@@ -5,7 +5,7 @@ Solutions created for exercises in Free Code Camp Beta
 Responsive Web Design
 - [x] Build a Tribute Page
 - [x] Build a Survey Form
-- [ ] Build a Product Landing Page
+- [x] Build a Product Landing Page
 - [x] Build a Technical Documentation Page
 - [ ] Build a Personal Portfolio Webpage
 
