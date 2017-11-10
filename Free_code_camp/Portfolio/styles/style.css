@@ -30,9 +30,6 @@ i{
 	text-decoration: none;
 	color: black;
 }
-i:hover{
-	padding: 1% 1.25%;
-}
 .main_section h1{
 	margin: 0;
 	padding-top: 40vh;
@@ -63,6 +60,10 @@ i:hover{
 	background-color: yellow;
 }
 
+.arrow_right:hover, .arrow_left:hover {
+	padding: 1% 1.25%;
+}
+
 /*  PORTFOLIO */
 .portfolio_section{
 	background-color: chocolate;
@@ -71,15 +72,30 @@ i:hover{
 }
 .portfolio{
 	display: flex;
-	border: 1px solid black;
+	height: 80vh;
 }
 .port_details{
-	border: 1px solid black;
-	flex: 50%;
+	padding: 4% 0 0 5%; /*FIX PADDING AND EVEN SECTIONS*/
+	flex: 40%;
 }
 .port_images{
-  border: 1px solid black;
-  flex: 50%;
+   flex: 60%;
+   text-align: center;
+   padding-top: 4%;
+}
+.portfolio .button{
+	text-align: center;
+	border: 3px solid white;
+	margin: auto;
+	margin-top: 2%;
+	border-radius: 10px;
+	padding: 1%;
+	width: 15%;
+}
+.nav_bar{
+	margin: auto;
+	width: 80%;
+	text-align: center;
 }
 
 /*  ABOUT */
@@ -90,6 +106,7 @@ i:hover{
 }
 .about{
   display: flex;
+  height: 100vh;
   border: 1px solid black;
 }
 .about_details{
