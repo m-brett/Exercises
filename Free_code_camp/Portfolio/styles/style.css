@@ -1,23 +1,65 @@
 body{
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
 }
 .box{
   height: 100vh;
   border: 1px solid black;
 }
+.main_section{
+	height: 100vh;
+	background-color: green;
+	position: relative;
+}
 nav{
-  position: fixed;
+    position: fixed;
+	top: 10px;
+	right: 10px;
+	width: 250px;
+}
+nav a{
+	float: right;
+	text-decoration: none;
+	color: white;
+	padding: 1% 1%;
+	margin-left: 4%;
+	font-size: 1.25rem;
+}
+nav a:hover{
+	border-bottom: 3px solid white;
+}
+.main_section h1{
+	margin: 0;
+	padding-top: 40vh;
+	margin-bottom: 3%;
+	text-align: center;
+	font-size: 4rem;
+}
+.main_section .button{
+	text-align: center;
+	border: 3px solid white;
+	margin: auto;
+	border-radius: 10px;
+	padding: 1%;
+	width: 10%;
+}
+.main_down{
+	position: absolute;
+	bottom: 0%;
+	right: 2%;
+	padding: 1%;
+	background-color: yellow;
 }
 
 /*  PORTFOLIO */
 .portfolio{
-  display: flex;
-  border: 1px solid black;
+	display: flex;
+	border: 1px solid black;
 }
 .port_details{
-  border: 1px solid black;
-  flex: 50%;
+	border: 1px solid black;
+	flex: 50%;
 }
 .port_images{
   border: 1px solid black;
