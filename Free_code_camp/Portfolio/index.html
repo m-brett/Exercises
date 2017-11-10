@@ -11,21 +11,22 @@
   
 <body>
   <!-- Main Header -->
-  <section class="main_section">
+  <section class="main_section" id="main_sec">
     <nav>
-      <a href="#">ABOUT</a>
-      <a href="#">WORK</a>
-	  <a href="#">HOME</a>
+      <a href="#about_sec">ABOUT</a>
+      <a href="#portfolio_sec">WORK</a>
+	  <a href="#main_sec">HOME</a>
     </nav>
   
   <h1>Persons Name</h1>
   	<div class="button">View Work</div>
-   <div><i class="fa fa-chevron-down fa-2x main_down"></i></div>
+    <a href="#portfolio_sec">
+	  <i class="fa fa-chevron-down fa-2x arrow_right"></i>
+	</a>
   </section>
   
   <!-- Portfolio -->
-  <section class="box">
-    <div class="portfolio">
+  <section class="portfolio_section" id="portfolio_sec">
       <div class="port_details">
           Portfolio Heading
 		  Text about Portfolio
@@ -36,14 +37,17 @@
 		  Image
 		  <div>Launch Site</div>
       </div>
-	</div>
     <div>Navigation Bar</div>
-    <div><i class="fa fa-chevron-up"></i></div>
-    <div><i class="fa fa-chevron-down"></i></div>
+    <a href="#main_sec">
+		<i class="fa fa-chevron-up fa-2x arrow_left"></i>
+	</a>	  
+    <a href="#about_sec">
+		<i class="fa fa-chevron-down fa-2x arrow_right"></i>
+	</a>
   </section>
   
   <!-- About/Contact -->
-  <section class="box">
+  <section class="about_section" id="about_sec">
 	<div class="about">
     	<div class="about_details">
 		  About
@@ -54,7 +58,9 @@
 		  Testimonals
 		</div>
 	</div>
-    <div><i class="fa fa-chevron-up"></i></div>
+    <a href="#portfolio_sec">
+		 <i class="fa fa-chevron-up fa-2x arrow_right"></i>
+	</a>
   </section>
   
   <!-- Contact Side Bar -->
