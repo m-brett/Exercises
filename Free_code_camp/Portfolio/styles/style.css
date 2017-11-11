@@ -2,6 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-size: 14px;
+	font-family: 'Noto Sans', sans-serif;
 }
 .main_section{
 	height: 100vh;
@@ -12,7 +13,7 @@ nav{
     position: fixed;
 	z-index:100;
 	top: 10px;
-	right: 10px;
+	right: 2%;
 	width: 250px;
 }
 nav a{
@@ -20,8 +21,8 @@ nav a{
 	text-decoration: none;
 	color: white;
 	padding: 1% 1%;
-	margin-left: 4%;
-	font-size: 1.25rem;
+	margin-left: 5%;
+	font-size: 1.1rem;
 }
 nav a:hover{
 	border-bottom: 3px solid white;
@@ -32,10 +33,16 @@ i{
 }
 .main_section h1{
 	margin: 0;
-	padding-top: 40vh;
-	margin-bottom: 3%;
+	padding-top: 33vh;
 	text-align: center;
-	font-size: 4rem;
+	font-size: 4.5rem;
+}
+.main_section h2{
+	margin: 0.2% 0 8% 0;
+	text-align: center;
+	font-size: 1.8rem;
+	letter-spacing: 10px;
+	font-weight: normal;
 }
 .main_section .button{
 	text-align: center;
@@ -102,12 +109,12 @@ i{
 .about_section{
 	position: relative;
 	background-color: silver;
-	height: 100vh;
+	height: 70vh;
 }
 .about{
   display: flex;
-  height: 100vh;
   border: 1px solid black;
+  height: 70vh;
 }
 .about_details{
   border: 1px solid black;
@@ -116,4 +123,16 @@ i{
 .about_test{
   border: 1px solid black;
   flex: 50%;
+}
+.test_name{
+	display: block;
+	font-weight: bold;
+}
+
+/*FOOTER*/
+footer{
+	height: 8vh;
+	padding-top: 2vh;
+	text-align: center;
+	font-size: 0.8rem;
 }
