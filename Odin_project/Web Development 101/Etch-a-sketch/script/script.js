@@ -38,19 +38,24 @@ $('#size').on('click', function() {
 	colorHover();
 });
 
+	
 /* Change to Colour Settings */
-$('#color').on('click', function(){
-  colorHover();
-});	
+$('#color').on('click', colorHover());	
+	
+	
+/* Change to Opacity Colour Settings */
 	
 	
 /* Clear Button */
-
+$('#clear').on('click', function(){
+	$('.squares').css('background-color', '');	
+});
+		   
+			   
   /* add class to square that is hovered over - default and using color button - uses multiple colours*/
   
   /* add opacity class when button clicked - adds to the opacity each time you hover over the square */
   
-  /* clear entire grid of color */  
 });
 
 /*
