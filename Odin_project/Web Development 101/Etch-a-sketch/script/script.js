@@ -14,28 +14,38 @@ function loadSquare(size){
 }
 	
 function colorHover(){
-	
+	$(".squares").mouseenter(function(){
+		$(this).css("background","#02baff");
+  	});
 }
 	
-/* Default Sizing*/
+/* Default Sizing */
 var size = 16;
 loadSquare(size); 
+	
+/* Default Colour Setting */
+colorHover();
 
-
+	
+	
+/* BUTTONS */
+	
 /* Change Box Sizing*/	
 $('#size').on('click', function() {
     var size = prompt("How many squares wide?");
 	$('#box').empty();
 	loadSquare(size);
+	colorHover();
 });
 
 /* Change to Colour Settings */
 $('#color').on('click', function(){
-//	$('squares').on('mouseenter', function(){
-//	$(this).css('background-color', 'blue');
-//	});
+  colorHover();
 });	
 	
+	
+/* Clear Button */
+
   /* add class to square that is hovered over - default and using color button - uses multiple colours*/
   
   /* add opacity class when button clicked - adds to the opacity each time you hover over the square */
