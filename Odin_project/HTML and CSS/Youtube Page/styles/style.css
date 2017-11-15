@@ -65,8 +65,77 @@ input[type=text]{
 
 main{
 	flex: 65%;
-	border: 1px solid green;
+	padding: 4vh 0 4vh 3vw;
 }
+.comments{
+	border: 1px solid gold;
+	padding-top: 3vh;
+	width: 97%;
+}
+.intro{
+	position: relative;
+	height: 10vh;
+	border-bottom: 1px solid #d3d3d3;	
+}
+.intro h2{
+	font-size: 1.4rem;
+	font-weight: 400;
+	margin-bottom: 1.5vh;
+}
+.intro p{
+	font-size: 1.2rem;
+	color: #717171;
+	margin-bottom: 1.5vh;
+}
+.intro img{
+	padding-bottom: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.details{
+	border-bottom: 1px solid #d3d3d3;
+	padding-top: 3vh;
+	position: relative;
+}
+.details img{
+	float: left;
+	margin-right: 1vw;
+}
+.name{
+	display: block;
+	font-weight: bold;
+	font-size: 0.95rem;
+}
+.date{
+	display: block;
+	font-size: 0.9rem;
+	margin: 0.8vh 0 3.5vh;
+	color: #717171;
+}
+.text{
+	margin-bottom: 3.5vh;
+}
+.subscribe{
+	display: inline-block;
+	position: absolute;
+	top: 3vh;
+	right: 0;
+	background-color: #ff0000;
+	color: white;
+	font-weight: 600;
+	padding: 1.5vh 1.5vw;
+}
+.sub{
+	color: #efefef;
+}
+.replies img{
+	width: 5.5%;
+	float: left;
+	margin: 0 1vw 0 0.5vw;
+}
+
+/* Side Bar */
 aside{
 	flex: 33%;
 	padding: 4vh 4vw 4vh 4vh;;
