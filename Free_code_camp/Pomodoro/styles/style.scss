@@ -1,0 +1,65 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.main{
+	height: 100vh;
+	width: 55vw;
+	margin: auto;
+	border: 1px solid green;
+	background-color: gray;
+}
+.pom{
+	position: relative;
+	border: 1px solid gold;
+	height: 55vh;
+	display: flex;
+	justify-content: center;
+}
+.screen_out{
+	position: absolute;
+	bottom: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid green;
+	height: 60%;
+	width: 90%;
+}
+.screen_in{
+	border: 1px solid orange;
+	height: 98%;
+	width: 98%;
+}
+.display{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid red;
+	height: 20vh;
+}
+.display_out{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid green;
+	height: 80%;
+	width: 80%;
+}
+.display_in{
+	border: 1px solid orange;
+	height: 80%;
+	width: 98%;
+}
+
+
+
+.options{
+	height: 25vh;
+}
+.opts_cover{
+	height: 100%;
+	border-radius: 10px 10px 0 0;
+	background-color: blue;
+}
