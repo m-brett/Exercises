@@ -1,65 +1,143 @@
+//VARIABLES
+$shadow: #72767c;
+$computer: 'Orbitron', sans-serif;
+$text: 'Roboto Condensed', sans-serif;
+$main-width: 50vw;
+
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
+	font-family: $text;
 }
 .main{
 	height: 100vh;
-	width: 55vw;
+	width: $main-width;
 	margin: auto;
-	border: 1px solid green;
-	background-color: gray;
 }
 .pom{
 	position: relative;
-	border: 1px solid gold;
 	height: 55vh;
 	display: flex;
 	justify-content: center;
 }
+// POM SCREEN
 .screen_out{
 	position: absolute;
 	bottom: 5px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid green;
+	border: 1px solid black;
 	height: 60%;
 	width: 90%;
 }
 .screen_in{
-	border: 1px solid orange;
-	height: 98%;
-	width: 98%;
+//	align-self: center;
+	text-align: center;
+	border: 1px solid black;
+	box-shadow: -1px -1px 2px 1px $shadow;
+	height: 89%;
+	width: 96%;
+	font-family: $computer;
 }
+
+// WORK SCREEN
 .display{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid red;
 	height: 20vh;
 }
 .display_out{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: 1px solid green;
+	border: 1px solid black;
 	height: 80%;
-	width: 80%;
+	width: 60%;
 }
 .display_in{
-	border: 1px solid orange;
+	border: 1px solid black;
+	box-shadow: -1px -1px 2px 1px $shadow;
+	text-align: center;
 	height: 80%;
-	width: 98%;
+	width: 96%;
 }
 
 
-
+// DISPLAY PANEL
 .options{
 	height: 25vh;
+	border: 1px solid black;
 }
 .opts_cover{
+	display: flex;
+	display: none;
+	justify-content: center;
 	height: 100%;
 	border-radius: 10px 10px 0 0;
 	background-color: blue;
+	
+}
+.opts_tag{
+	border: 1px solid green;
+	align-self: center;
+	background-color: white;
+	height: 50%;
+	width: 30%;
+}
+.opts_cont{
+	border: 1px solid green;
+	display: flex;
+	padding: 3% 0%;
+}
+.opts_box{
+	border: 1px solid purple;
+	flex: 30%;
+	padding: 2%;
+	div{
+		border: 1px solid green;
+	}
+}
+.opts_up, .opts_down{
+	width: 35%;
+	height: 50%;
+	display: inline-block;
+	padding-top: 2%;
+	text-align: center;
+}
+.opts_total{
+	float: right;
+	width: 65%;
+	height: 100%;
+	display: inline-block;
+}
+
+
+
+.side_buttons{
+	border: 1px solid green;
+	position: absolute;
+	bottom: 10vh;
+	right: 20vw;
+	h4{
+		// MAKE TO RIGHT OF BUTTONS
+	}
+}
+
+.button{
+	border: 1px solid chocolate;
+	height: 8vh;
+	width: 8vh;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+}
+.button_in{
+	border: 1px solid chocolate;
+	align-self: center;
+	height: 6vh;
+	width: 6vh;
+	border-radius: 50%;
 }
