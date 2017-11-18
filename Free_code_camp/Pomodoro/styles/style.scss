@@ -1,14 +1,28 @@
 //VARIABLES
-$shadow: #72767c;
+$shadow: #201913;
+$gradient: radial-gradient( #5a5955, #878a8e);
+$outer-shadow: 0px 3px 0px -2px black;
 $computer: 'Orbitron', sans-serif;
 $text: 'Roboto Condensed', sans-serif;
 $main-width: 50vw;
+
+
+@mixin borders{
+	border: solid #33302e 10px;
+    box-shadow: 0 1px 5px #615c57, 0 -1px 8px #666, inset 0 -1px 5px rgba(0,0,0,0.5), inset 0 1px 2px rgba(255,255,255,0.8);
+	// MAKE LOOK MORE BEVEALED
+}
 
 *{
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 	font-family: $text;
+	font-size: 14px;
+}
+body{
+	background: url("../images/background.jpg") no-repeat;
+	background-size: cover;
 }
 .main{
 	height: 100vh;
@@ -23,25 +37,17 @@ $main-width: 50vw;
 }
 // POM SCREEN
 .screen_out{
+	@include borders;
+	background-color: lightblue;
 	position: absolute;
 	bottom: 5px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid black;
+	border-radius: 5px;
 	height: 60%;
 	width: 90%;
-}
-.screen_in{
-//	align-self: center;
-	text-align: center;
-	border: 1px solid black;
-	box-shadow: -1px -1px 2px 1px $shadow;
-	height: 89%;
-	width: 96%;
 	font-family: $computer;
+	text-align: center;
+	
 }
-
 // WORK SCREEN
 .display{
 	display: flex;
@@ -50,46 +56,31 @@ $main-width: 50vw;
 	height: 20vh;
 }
 .display_out{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid black;
+	@include borders;
+	background-color: lightblue;
+	border-radius: 5px;
 	height: 80%;
 	width: 60%;
-}
-.display_in{
-	border: 1px solid black;
-	box-shadow: -1px -1px 2px 1px $shadow;
 	text-align: center;
-	height: 80%;
-	width: 96%;
 }
-
 
 // DISPLAY PANEL
 .options{
 	height: 25vh;
-	border: 1px solid black;
 }
 .opts_cover{
 	display: flex;
-	display: none;
+	background: url("../images/cover2.png") no-repeat;
+	background-size: cover;
+//	display: none;
 	justify-content: center;
 	height: 100%;
-	border-radius: 10px 10px 0 0;
-	background-color: blue;
-	
-}
-.opts_tag{
-	border: 1px solid green;
-	align-self: center;
-	background-color: white;
-	height: 50%;
-	width: 30%;
+	border-radius: 10px 10px 0 0;	
 }
 .opts_cont{
 	border: 1px solid green;
 	display: flex;
+	display: none;
 	padding: 3% 0%;
 }
 .opts_box{
@@ -117,7 +108,6 @@ $main-width: 50vw;
 
 
 .side_buttons{
-	border: 1px solid green;
 	position: absolute;
 	bottom: 10vh;
 	right: 20vw;
@@ -125,19 +115,11 @@ $main-width: 50vw;
 		// MAKE TO RIGHT OF BUTTONS
 	}
 }
-
-.button{
-	border: 1px solid chocolate;
+.button {
+	border-radius: 50%;
 	height: 8vh;
 	width: 8vh;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-}
-.button_in{
-	border: 1px solid chocolate;
-	align-self: center;
-	height: 6vh;
-	width: 6vh;
-	border-radius: 50%;
+    border: solid #28221c 5px;
+    box-shadow: 0 1px 2px #615c57, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#918c87), color-stop(100%,#474441)); 
 }
