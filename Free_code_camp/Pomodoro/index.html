@@ -5,6 +5,8 @@
 		<meta charset="UTF-8">
 		<link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto+Condensed" rel="stylesheet">
 		<script src="https://use.fontawesome.com/f37781fe0a.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		<script src="script/script.js"></script>
 		<link rel="stylesheet" href="styles/style.css">
 
 	</head>
@@ -24,14 +26,12 @@
 				
 				<div class="options">
 					<!--COVER -->
-					<div class="opts_cover"></div>
-					
+						<div class="opts_cover" id="opts_cover"></div>
+
 					<!--CONTENTS -->
 					<div class="opts_cont">
 						<div class="opts_box">
-							<!-- ADD BORDER -->
 							<div class="opts_total">25</div>
-							<!--ADD BEVEAL LOOK?-->
 							<div class="opts_up"><i class="fa fa-plus fa-lg"></i></div>
 							<div class="opts_down"><i class="fa fa-minus fa-lg"></i></div>
 							<div class="opts_text">WORK</div>
@@ -57,11 +57,11 @@
 	
 		<div class="side_buttons">
 			<div class="but_1">
-				<div class="button"></div>
+				<div class="button" id="open"></div>
 				<h4>OPEN</h4>
 			</div>
 			<div class="but_2">
-				<div class="button"></div>
+				<div class="button" id="close"></div>
 				<h4>CLOSE</h4>
 			</div>
 		</div>

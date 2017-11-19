@@ -3,22 +3,23 @@
 	padding:0;
 	margin:0;
 	font-family:"Roboto Condensed",sans-serif;
-	font-size:14px
+	font-size:14px;
 }
 body{
 	background:url("../images/background2.jpg") no-repeat;
-	background-size: cover
+	background-size: cover;
 } 
 .main{
 	height:100vh;
+	overflow: hidden;
 	width:50vw;
-	margin:auto
+	margin:auto;
 }
 .pom{
 	position:relative;
 	height:55vh;
 	display:flex;
-	justify-content:center
+	justify-content:center;
 }
 .screen_out{
 	border:solid #33302e 10px;
@@ -34,13 +35,13 @@ body{
 	font-family:"Orbitron",sans-serif;
 	text-align:center;
 	color:white;
-	font-size:6rem
+	font-size:6rem;
 }
 .display{
 	display:flex;
 	justify-content:center;
 	align-items:center;
-	height:20vh
+	height:20vh;
 }
 .display_out{
 	border:solid #33302e 10px;
@@ -57,31 +58,37 @@ body{
 	font-size:3rem;
 	color:#64240b;
 	letter-spacing:0.5rem;
-	font-weight:700
+	font-weight:700;
 }
 .options{
-	height:25vh
+	height:25vh;
+	position: relative;
 }
+
 .opts_cover{
-	/* CHANGE */
-	display: flex;
+	position: absolute;
+	top: 0vh;
+	left: 0vh;
 	background:url("../images/cover2.png") no-repeat;
 	background-size:cover;
-	justify-content:center;
 	height:100%;
-	border-radius:10px 10px 0 0
+	width: 100%;
 }
 .opts_cont{
 	background:url("../images/controlback.jpg") no-repeat;
 	box-shadow:0 1px 10px black,0 -1px 8px black,inset 0 -1px 5px black,inset 0 1px 2px black);
-	height:25vh;
-	display: none;
-/*	display:flex;*/
-	padding: 3% 10%;
+	height:22vh;
+	position: absolute;
+	top: 1vh;
+	left: 1vh;
+	width: 98%;
+	display:flex;
+	padding: 1% 10% 3%;
+	z-index: -1;
 }
 .opts_box{
-	margin: 2% 3%;
-	flex:30%;
+	margin: 2% 3% 2.5%;
+	flex: 30%;
 	padding:1% 1%;
 }
 .opts_up,.opts_down{
@@ -99,7 +106,7 @@ body{
 	width:63%;
 	height:100%;
 	display:inline-block;
-	padding-top: 20%;
+	padding-top: 15%;
 	text-align: center;
 	font-family:"Orbitron",sans-serif;
 	font-size: 2rem;
