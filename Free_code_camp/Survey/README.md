@@ -1,8 +1,9 @@
 # About
-Created October 2017</br>
-Tools: HTML, CSS
+[Launch Site](https://m-brett.github.io/Exercises/Free_code_camp/Survey/index.html)
 
-Free Code Camp Project - Make a Survey Page
+**Created:** October 2017</br>
+**Tools:** HTML, CSS</br>
+**Description:** Portfolio for a Photography company with feature images and expandable side menu. Site uses animations based on scrolls and smooth transitions between anchor links. 
 
 
 ## Additional Developments to Make:
