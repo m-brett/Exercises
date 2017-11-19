@@ -21,7 +21,7 @@ $main-width: 50vw;
 	font-size: 14px;
 }
 body{
-	background: url("../images/background.jpg") no-repeat;
+	background: url("../images/background2.jpg") no-repeat;
 	background-size: cover;
 }
 .main{
@@ -38,14 +38,18 @@ body{
 // POM SCREEN
 .screen_out{
 	@include borders;
-	background-color: lightblue;
+	background-color: black;
+	background: url("../images/pixels.jpg");
 	position: absolute;
 	bottom: 5px;
 	border-radius: 5px;
 	height: 60%;
 	width: 90%;
+	padding-top: 6%;
 	font-family: $computer;
 	text-align: center;
+	color: white;
+	font-size: 6rem;
 	
 }
 // WORK SCREEN
@@ -57,30 +61,40 @@ body{
 }
 .display_out{
 	@include borders;
-	background-color: lightblue;
+	background-color: white;
+	background: url("../images/glow.jpg");
+	box-shadow: inset -2px 1px 1px #fb6000, inset 2px 1px 1px #fb6000, inset 1px -1px 5px rgba(291,96,0,0.2), inset 0 2px 6px rgba(255,255,255,0.8);
 	border-radius: 5px;
 	height: 80%;
 	width: 60%;
+	padding-top: 2%;
 	text-align: center;
+	text-shadow: 1px 1px 5px #fc942e, 0 0 50px #f6d53d;
+	font-size: 3rem;
+	color: #64240b;
+	letter-spacing: 0.5rem;
+	font-weight: 700;
 }
 
 // DISPLAY PANEL
 .options{
 	height: 25vh;
 }
-.opts_cover{
-	display: flex;
-	background: url("../images/cover2.png") no-repeat;
-	background-size: cover;
-//	display: none;
-	justify-content: center;
-	height: 100%;
-	border-radius: 10px 10px 0 0;	
-}
+//.opts_cover{
+////	display: flex;
+//	display: none; //TURN OFF AND ON
+//	background: url("../images/cover2.png") no-repeat;
+//	background-size: cover;
+//	justify-content: center;
+//	height: 100%;
+//	border-radius: 10px 10px 0 0;	
+//}
 .opts_cont{
+	background: url("../images/controlback.jpg");
+	background-color: blue;
+	display: flex; //TURN OFF AND ON
+//	display: none;
 	border: 1px solid green;
-	display: flex;
-	display: none;
 	padding: 3% 0%;
 }
 .opts_box{
@@ -99,26 +113,30 @@ body{
 	text-align: center;
 }
 .opts_total{
+	@include borders;
+	border: solid #33302e 6px;
 	float: right;
 	width: 65%;
 	height: 100%;
 	display: inline-block;
 }
 
-
-
+//BUTTONS
 .side_buttons{
 	position: absolute;
-	bottom: 10vh;
-	right: 20vw;
-	h4{
-		// MAKE TO RIGHT OF BUTTONS
-	}
+	bottom: 5vh;
+	right: 16vw;
+}
+.but_1, .but_2{
+	width: 104%;
+	h4 {
+		margin-top: 18%
 }
 .button {
 	border-radius: 50%;
 	height: 8vh;
 	width: 8vh;
+	display: inline-block;
     border: solid #28221c 5px;
     box-shadow: 0 1px 2px #615c57, 0 -1px 1px #666, inset 0 -1px 1px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255,255,255,0.8);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#918c87), color-stop(100%,#474441)); 
