@@ -1,6 +1,9 @@
 # About
-Created Novemeber 2017</br>
-Tools: HTML, CSS
+[Launch Site](https://m-brett.github.io/Exercises/Odin_project/ HTML_and_CSS/ Youtube_Page/index.html)
+
+**Created:** November 2017</br>
+**Tools:** HTML, CSS</br>
+**Description:** 
 
 Odin Project for HTML5 and CSS3
 EMBEDDING IMAGES AND VIDEO

@@ -12,7 +12,7 @@ Web Development 101
 - [ ] Create a "Pomodoro"
 
 HTML5 and CSS3
-- [ ] Embedding Images and Video
+- [x] Embedding Images and Video: Youtube Page [Launch Page](https://m-brett.github.io/Exercises/Odin_project/ HTML_and_CSS/ Youtube_Page/index.html)
 - [ ] HTML Forms
 - [ ] Positioning and Floating Elements
 - [ ] Building with Backgrounds and Gradients
