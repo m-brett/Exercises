@@ -1,5 +1,5 @@
 # About
-[Launch Site](https://m-brett.github.io/Exercises/Odin_project/ HTML_and_CSS/ Youtube_Page/index.html)
+[Launch Site](https://m-brett.github.io/Exercises/Odin_project/HTML_and_CSS/Youtube_Page/index.html)
 
 **Created:** November 2017</br>
 **Tools:** HTML, CSS</br>
