@@ -6,7 +6,7 @@
 	font-size:14px;
 }
 body{
-	background:url("../images/background2.jpg") no-repeat;
+	background:url("../images/background4.jpg") no-repeat;
 	background-size: cover;
 } 
 .main{
@@ -72,16 +72,15 @@ body{
 	position: absolute;
 	top: 0vh;
 	left: 0vh;
-	background:url("../images/cover2.png") no-repeat;
+	background:url("../images/cover3.png") no-repeat;
 	background-size:cover;
 	height:100%;
 	width: 100%;
 }
 .opts_cont{
 	background:url("../images/controlback.jpg") no-repeat;
-	box-shadow:0 1px 10px black,0 -1px 8px black,
-		inset 0 -1px 5px black,
-		inset 0 1px 2px black);
+	box-shadow:0 1px 10px black,
+		inset 0px 2px 0 2px #3d3c3c;
 	height:22vh;
 	position: absolute;
 	top: 1vh;
@@ -106,9 +105,10 @@ body{
 	padding-top: 8%;
 	text-align:center;
 	color: #a3a3a3;
+	cursor: pointer;
 }
 .opts_up:active,.opts_down:active{
-	background-image: linear-gradient(to bottom, #474646, #262525);
+	background-image: linear-gradient(to bottom, #6d6d6d, #262525);
 	box-shadow: 0px 2px 0px 2px #333131;
 }
 
@@ -117,7 +117,7 @@ body{
 	width:63%;
 	height:100%;
 	display:inline-block;
-	padding-top: 15%;
+	padding-top: 2.5vh;
 	text-align: center;
 	font-family:"Orbitron",sans-serif;
 	font-size: 2rem;
@@ -175,16 +175,16 @@ body{
 }
 .side_buttons{
 	position:absolute;
-	bottom:5vh;
-	right:16vw
+	bottom: 2vh;
+	right:18vw
 }
 .but_1,.but_2{
 	width:105%
 }
 .but_1 h4,.but_2 h4{
-	float:right;
-	text-align:left;
-	margin:18% 0 0 1%
+/*	float:right;*/
+	text-align:center;
+	margin: 1% 0 0 1%
 }
 .button{
 	border-radius:50%;
@@ -203,6 +203,46 @@ body{
 }
 .button:active{
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4c4945), color-stop(100%,#7f7c79)); 
+}
+
+
+@media (min-width: 861px) and (max-width: 1075px){
+	.opts_cont{
+		padding: 1% 5%;
+	}
+	.opts_box{
+		height: 75%;
+		margin: 1.5% 1% 2.5%;
+	}
+}
+
+@media (min-width: 580px) and (max-width: 860px){
+	.main{
+		width: 65vw;
+	}
+	.opts_cont{
+		padding: 1% 3%;
+	}
+	.opts_box{
+		height: 70%;
+		margin: 1.5% 0.5% 2.5%;
+		font-size: 1.5rem;
+	}
+	.opts_total{
+		padding-top: 2vh;
+	}
+	.side_buttons{
+		position:absolute;
+		bottom: 2vh;
+		right:5vw
+	}
+}
+
+@media (max-width: 579px){
+	*{
+		display: none;
+		background-color: black;
+	}
 }
 
 /*# sourceMappingURL=style.css.map */

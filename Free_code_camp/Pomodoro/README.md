@@ -1,8 +1,11 @@
 # About
-Created Novemeber 2017</br>
-Tools: HTML, CSS
+[Launch Site](--)
 
-Odin Project for HTML5 and CSS3
-USING BOOTSTRAP
+**Created:** November 2017</br>
+**Tools:** HTML, SCSS, JavaScript, jQuery</br>
+**Description:** Free Code Camp Project - Create a Pomodoro
 
-In this project, you’ll get a chance to try out Twitter’s Bootstrap framework by building a site that actually uses it – Newsweek.
+
+## Additional Developments to Make:
+
+- [ ] 
